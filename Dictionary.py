@@ -2,7 +2,7 @@
 # -*-coding:utf-8-*-
 
 
-class Category:
+class Dictionary:
     def __init__(self):
         self.category = []
         self.keyword = []

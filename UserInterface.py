@@ -3,6 +3,8 @@
 
 
 class UserInterface:
+    def __init__(self):
+        pass
 
     @staticmethod
     def home_page():
@@ -13,11 +15,11 @@ class UserInterface:
             print("3. Exit")
             print("Your choice: ")
             choice = input()
-            if choice == 1:
+            if choice == '1':
                 UserInterface.sign_in()
-            elif choice == 2:
+            elif choice == '2':
                 UserInterface.sign_up()
-            elif choice == 3:
+            elif choice == '3':
                 break
             else:
                 print("Please try again.\n")
@@ -25,17 +27,17 @@ class UserInterface:
     @staticmethod
     def sign_in():
         while True:
-            print("---------OJSS---------")
+            print("---------Sign in---------")
             print("1. Sign in with seeker account")
             print("2. Sign in with recruiter account")
             print("3. Back to previous page")
             print("Your choice: ")
             choice = input()
-            if choice == 1:
+            if choice == '1':
                 pass
-            elif choice == 2:
+            elif choice == '2':
                 pass
-            elif choice == 3:
+            elif choice == '3':
                 break
             else:
                 print("Please try again.")
@@ -43,17 +45,17 @@ class UserInterface:
     @staticmethod
     def sign_up():
         while True:
-            print("---------OJSS---------")
+            print("---------Sign up---------")
             print("1. Sign up with seeker account")
             print("2. Sign up with recruiter account")
             print("3. Back to previous page")
             print("Your choice: ")
             choice = input()
-            if choice == 1:
+            if choice == '1':
                 pass
-            elif choice == 2:
+            elif choice == '2':
                 pass
-            elif choice == 3:
+            elif choice == '3':
                 break
             else:
                 print("Please try again.")
