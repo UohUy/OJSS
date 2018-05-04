@@ -4,7 +4,7 @@
 
 class SeekerProfile:
 
-    def __int__(self, seeker_id, name, gender, mobile, email, education_level, work_year, skill_set):
+    def __init__(self, seeker_id, name, gender, mobile, email, education_level, work_year, skill_set):
         self.seeker_id = seeker_id
         self.name = name
         self.gender = gender
